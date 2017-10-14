@@ -13,8 +13,8 @@
 		103BBDFB1DF5AE6700568B08 /* COMP327_Assignment2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103BBDF91DF5AE6700568B08 /* COMP327_Assignment2.xcdatamodeld */; };
 		103BBDFD1DF5AE6700568B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103BBDFC1DF5AE6700568B08 /* Assets.xcassets */; };
 		103BBE001DF5AE6700568B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103BBDFE1DF5AE6700568B08 /* LaunchScreen.storyboard */; };
-		103BBE0B1DF5AE6800568B08 /* COMP327_Assignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103BBE0A1DF5AE6800568B08 /* COMP327_Assignment2Tests.swift */; };
-		103BBE161DF5AE6800568B08 /* COMP327_Assignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103BBE151DF5AE6800568B08 /* COMP327_Assignment2UITests.swift */; };
+		1077CA231DF6CBAE001162A7 /* AshtonBuilding.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1077CA221DF6CBAD001162A7 /* AshtonBuilding.gpx */; };
+		10D7FE491DFABDEA0058EA42 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D7FE481DFABDEA0058EA42 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +44,9 @@
 		103BBDFF1DF5AE6700568B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103BBE011DF5AE6700568B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		103BBE061DF5AE6800568B08 /* COMP327 Assignment2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMP327 Assignment2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		103BBE0A1DF5AE6800568B08 /* COMP327_Assignment2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMP327_Assignment2Tests.swift; sourceTree = "<group>"; };
-		103BBE0C1DF5AE6800568B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		103BBE111DF5AE6800568B08 /* COMP327 Assignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMP327 Assignment2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		103BBE151DF5AE6800568B08 /* COMP327_Assignment2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMP327_Assignment2UITests.swift; sourceTree = "<group>"; };
-		103BBE171DF5AE6800568B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1077CA221DF6CBAD001162A7 /* AshtonBuilding.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AshtonBuilding.gpx; sourceTree = "<group>"; };
+		10D7FE481DFABDEA0058EA42 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				103BBDF11DF5AE6700568B08 /* COMP327 Assignment2 */,
-				103BBE091DF5AE6800568B08 /* COMP327 Assignment2Tests */,
-				103BBE141DF5AE6800568B08 /* COMP327 Assignment2UITests */,
 				103BBDF01DF5AE6700568B08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,31 +97,15 @@
 			children = (
 				103BBDF21DF5AE6700568B08 /* AppDelegate.swift */,
 				103BBDF41DF5AE6700568B08 /* ViewController.swift */,
+				10D7FE481DFABDEA0058EA42 /* detailViewController.swift */,
 				103BBDF61DF5AE6700568B08 /* Main.storyboard */,
 				103BBDFC1DF5AE6700568B08 /* Assets.xcassets */,
 				103BBDFE1DF5AE6700568B08 /* LaunchScreen.storyboard */,
 				103BBE011DF5AE6700568B08 /* Info.plist */,
 				103BBDF91DF5AE6700568B08 /* COMP327_Assignment2.xcdatamodeld */,
+				1077CA221DF6CBAD001162A7 /* AshtonBuilding.gpx */,
 			);
 			path = "COMP327 Assignment2";
-			sourceTree = "<group>";
-		};
-		103BBE091DF5AE6800568B08 /* COMP327 Assignment2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				103BBE0A1DF5AE6800568B08 /* COMP327_Assignment2Tests.swift */,
-				103BBE0C1DF5AE6800568B08 /* Info.plist */,
-			);
-			path = "COMP327 Assignment2Tests";
-			sourceTree = "<group>";
-		};
-		103BBE141DF5AE6800568B08 /* COMP327 Assignment2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				103BBE151DF5AE6800568B08 /* COMP327_Assignment2UITests.swift */,
-				103BBE171DF5AE6800568B08 /* Info.plist */,
-			);
-			path = "COMP327 Assignment2UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +217,7 @@
 			files = (
 				103BBE001DF5AE6700568B08 /* LaunchScreen.storyboard in Resources */,
 				103BBDFD1DF5AE6700568B08 /* Assets.xcassets in Resources */,
+				1077CA231DF6CBAE001162A7 /* AshtonBuilding.gpx in Resources */,
 				103BBDF81DF5AE6700568B08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +246,7 @@
 				103BBDF51DF5AE6700568B08 /* ViewController.swift in Sources */,
 				103BBDFB1DF5AE6700568B08 /* COMP327_Assignment2.xcdatamodeld in Sources */,
 				103BBDF31DF5AE6700568B08 /* AppDelegate.swift in Sources */,
+				10D7FE491DFABDEA0058EA42 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103BBE0B1DF5AE6800568B08 /* COMP327_Assignment2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103BBE161DF5AE6800568B08 /* COMP327_Assignment2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +489,7 @@
 				103BBE1C1DF5AE6800568B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		103BBE1D1DF5AE6800568B08 /* Build configuration list for PBXNativeTarget "COMP327 Assignment2Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +498,7 @@
 				103BBE1F1DF5AE6800568B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		103BBE201DF5AE6800568B08 /* Build configuration list for PBXNativeTarget "COMP327 Assignment2UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +507,7 @@
 				103BBE221DF5AE6800568B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  COMP327 Assignment2
 //
-//  Created by Tianshu Qu on 05/12/2016.
-//  Copyright © 2016 Tianshu Qu. All rights reserved.
+//  Created by Anran Guo on 05/12/2016.
+//  Copyright © 2016 Anran Guo. All rights reserved.
 //
 
 import UIKit
